@@ -479,8 +479,17 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
+    .max-width-margin {
+        max-width: 450px;
+    }
+
+    .hero-container {
+        padding: 2.5rem 0;
+    }
+
     .hero-circle-container {
         transform: scale(0.7);
+        top: 30px;
     }
 
     .microphone-container {
@@ -489,8 +498,8 @@ footer p {
     }
 
     .hero-badge {
-        top: 150px;
-        left: calc(50% + 50px);
+        top: 130px;
+        left: calc(50% + 40px);
     }
 
     .about-stat-container {
@@ -514,10 +523,6 @@ footer p {
 
     .featured-episodes-container {
         flex-direction: column;
-    }
-
-    .max-width-margin {
-        max-width: 400px;
     }
 
     .meet-host-container {
@@ -561,5 +566,34 @@ footer p {
     .narrow-screen-only .menu-btn {
         background-color: transparent;
         border: none;
+    }
+
+    .about-podcast {
+        padding: 2.5rem 0;
+    }
+
+    .about-para-2 {
+        margin-bottom: 2.5rem;
+    }
+
+    .about-podcast hr {
+        max-width: 420px;
+        margin-bottom: 2.5rem;
+    }
+
+    .why-choose {
+        padding: 2.5rem 0;
+    }
+
+    .featured-episodes {
+        padding: 2.5rem 0;
+    }
+    
+    .meet-host {
+        padding-bottom: 2.5rem;
+    }
+
+    footer {
+        padding: 2.5rem 0;
     }
 }
