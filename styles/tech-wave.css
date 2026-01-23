@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  color: #FFFFFF;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.deep-background {
+  background-color: #1A0B2E;
+}
+    
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem;
+}
+
+nav h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.gradient-text {
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #F7E93F;
+}
+
+.sub-btn {
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: #FFFFFF;
+    border: none;
+    padding: 0.78125rem 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.sub-btn:hover {
+    background: linear-gradient(to top right, #FB09B4 0%, #9100F8 51%, #F7E93F 100%);
+    transform: scale(1.10);
+    
+}
+
