@@ -16,7 +16,8 @@ body {
 .deep-background {
   background-color: #1A0B2E;
 }
-    
+
+/* Nav Styles */
 nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,3 +76,94 @@ nav ul li a:hover {
     
 }
 
+/* Hero Styles */
+.hero-container {
+    background: url('../assets/hero-bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: center;
+
+    position: relative;
+    padding: 101px 0;
+
+}
+
+.hero-circle-container {
+    position: relative;
+    max-width: 350px;
+    min-width: 350px;
+    width: 100%;
+    top: -10px;
+}
+
+.hero-circle {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
+.microphone-container {
+    position: absolute;
+    max-width: 117px;
+    top: 170px;
+    left: calc(50% - 58.5px);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.microphone {
+    width: 100%;
+}
+
+.hero-badge {
+    position: absolute;
+    top: 100px;
+    left: calc(50% + 77px);
+    z-index: 20;
+
+    background-color: #00FF88;
+    color: #1A0B2E;
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: 0%;
+}
+
+.hero-content h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.sub-green {
+    color: #00FF88;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    border-radius: 2rem;
+    border: 1px solid #00FF88;
+}
