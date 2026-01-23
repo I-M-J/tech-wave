@@ -388,6 +388,8 @@ nav ul li a:hover {
 .meet-host-container {
     padding: 2.5rem;
     gap: 1.5rem;
+    background-color: #351165;
+    border-radius: 2.5rem;
 }
 
 .meet-host-texts {
