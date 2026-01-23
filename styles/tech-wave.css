@@ -299,4 +299,65 @@ nav ul li a:hover {
     grid-row: span 1;
 }
 
+/* Featured Episodes Styles */
+.featured-episodes {
+    padding: 7.5rem 0;
+}
 
+.featured-episodes h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.featured-episodes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.featured-episodes-container .card {
+    border-radius: 1.5rem;
+    background-color: #250D44;
+}
+
+.featured-episodes-container .card iframe {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 100%;
+    height: 200px;
+}
+
+.featured-episodes-container .card-text {
+    padding: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.featured-episodes-container .card-text h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.featured-episodes-container .card-text p {
+    font-size: 1rem;
+    opacity: 0.6;
+    line-height: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.featured-episodes-container .card-text h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.featured-episodes-container .card-text h5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
