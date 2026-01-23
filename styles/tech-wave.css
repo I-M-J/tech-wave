@@ -17,10 +17,17 @@ body {
   background-color: #1A0B2E;
 }
 
-/* Nav Styles */
-nav {
+.max-width-margin {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* Nav Styles */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,3 +174,61 @@ nav ul li a:hover {
     border-radius: 2rem;
     border: 1px solid #00FF88;
 }
+
+/* About Podcast Styles */
+.about-podcast {
+    text-align: center;
+    padding: 3.125rem 0 7.5rem;
+      
+}
+.about-podcast-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-podcast-container h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-podcast-container p {
+    font-size: 1rem;
+    opacity: 0.8;
+    line-height: 1.75rem;
+}
+
+.about-para-1 {
+    margin-bottom: 1.5rem;
+}
+
+.about-para-2 {
+    margin-bottom: 5rem;
+}
+
+.about-podcast hr {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    opacity: 0.1;
+}
+
+.about-stat-container {
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+
+.about-stat-container .card {
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.about-stat-container .card h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+    margin-bottom: 1rem;
+}
+
