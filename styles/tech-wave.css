@@ -424,3 +424,84 @@ nav ul li a:hover {
     width: 1.25rem;
 }
 
+footer {
+    background: url('../assets/footer-bg.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding: 7.5rem 0;
+}
+
+footer h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tech-wave-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.tech-wave-social {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tech-wave-social h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+footer p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .hero-circle-container {
+        transform: scale(0.7);
+    }
+
+    .microphone-container {
+        transform: scale(0.6);
+        top: 60px;
+    }
+
+    .hero-badge {
+        top: 150px;
+        left: calc(50% + 50px);
+    }
+
+    .about-stat-container {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .about-stat-container .card {
+        flex: 0 0 50%;
+    }
+
+    .why-choose-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why-choose-cards .card {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .featured-episodes-container {
+        flex-direction: column;
+    }
+
+    .max-width-margin {
+        max-width: 400px;
+
+}
