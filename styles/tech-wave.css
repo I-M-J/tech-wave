@@ -5,16 +5,16 @@
 }
 
 body {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .deep-background {
-  background-color: #1A0B2E;
+    background-color: #1A0B2E;
 }
 
 .light-background {
@@ -99,7 +99,7 @@ nav ul li a:hover {
 .sub-btn:hover {
     background: linear-gradient(to top right, #FB09B4 0%, #9100F8 51%, #F7E93F 100%);
     transform: scale(1.10);
-    
+
 }
 
 /* Hero Styles */
@@ -206,8 +206,9 @@ nav ul li a:hover {
 .about-podcast {
     text-align: center;
     padding: 3.125rem 0 7.5rem;
-      
+
 }
+
 .about-podcast-container {
     flex-direction: column;
     justify-content: center;
@@ -274,7 +275,7 @@ nav ul li a:hover {
 .why-choose-cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 240px) 273px; 
+    grid-template-rows: repeat(2, 240px) 273px;
     gap: 1.5rem;
 }
 
@@ -443,7 +444,7 @@ footer {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    
+
     padding: 7.5rem 0;
 }
 
@@ -478,9 +479,9 @@ footer p {
     text-align: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .max-width-margin {
-        max-width: 450px;
+        max-width: 600px;
     }
 
     .hero-container {
@@ -546,7 +547,7 @@ footer p {
         justify-content: center;
         max-width: 340px;
     }
-    
+
     .tech-wave-social {
         flex: 1 1 40%;
 
@@ -588,7 +589,7 @@ footer p {
     .featured-episodes {
         padding: 2.5rem 0;
     }
-    
+
     .meet-host {
         padding-bottom: 2.5rem;
     }
